@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="pageTitle">Carregando...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="lang-links">
+            <a href="?lang=pt">Português</a>
+            <span>|</span>
+            <a href="?lang=en">English</a>
+        </div>
+        <div class="action-buttons">
+            <button type="button" id="download-btn" data-translate="downloadPdf"></button>
+            <button type="button" id="photo-toggle" data-translate="togglePhoto"></button>
+            <button type="button" id="theme-toggle" data-translate="toggleTheme"></button>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <header>
+            <div class="profile-photo">
+                <img id="profile-img" src="" alt="Foto de Perfil de Ícaro Gabriel">
+            </div>
+
+            <h1 data-translate="name"></h1>
+            <div class="contact-info">
+                <a href="mailto:icarogabriels@proton.me">icarogabriels@proton.me</a> • +55 (83) 98195-0410 • <span data-translate="location"></span><br>
+                <a href="https://github.com/icarosqz" target="_blank"><strong>GitHub: icarosqz</strong></a> • 
+                <a href="https://www.linkedin.com/in/icaro-saldanha-845061352/" target="_blank"><strong>LinkedIn</strong></a>
+            </div>
+        </header>
+
+        <section id="resumo">
+            <h2 data-translate="summaryTitle"></h2>
+            <p data-translate="summaryContent"></p>
+        </section>
+
+        <section id="experiencia">
+            <h2 data-translate="experienceTitle"></h2>
+            <div id="experience-container"></div>
+        </section>
+
+        <section id="formacao">
+            <h2 data-translate="educationTitle"></h2>
+            <div id="education-container"></div>
+        </section>
+
+        <section id="projetos">
+            <h2 data-translate="projectsTitle"></h2>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="habilidades">
+            <h2 data-translate="skillsTitle"></h2>
+            <ul id="skills-list"></ul>
+        </section>
+
+        <section id="idiomas">
+            <h2 data-translate="languagesTitle"></h2>
+            <ul id="languages-list"></ul>
+        </section>
+
+    </div> <footer>
+        <p>
+            © <span id="current-year"></span> Ícaro Gabriel S. de Queiroz. 
+            <a href="https://github.com/icarosqz/curriculo-online" target="_blank">Feito por mim</a>.
+        </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>

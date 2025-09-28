@@ -1,0 +1,130 @@
+{
+  "pt": {
+    "pageTitle": "Currículo - Ícaro Gabriel S. de Queiroz",
+    "name": "Ícaro Gabriel Saldanha de Queiroz",
+    "location": "Campina Grande, PB",
+    "photoUrls": {
+      "light": "img/profile-light.jpg",
+      "dark": "img/profile-dark.jpg"
+    },
+    "toggleTheme": "Tema Claro/Escuro",
+    "togglePhoto": "Mostrar/Ocultar Foto",
+    "downloadPdf": "Baixar como PDF (nas configurações atuais da página)",
+    "summaryTitle": "Resumo",
+    "summaryContent": "Estudante de Ciência da Computação na UFCG com experiência profissional em desenvolvimento Full Stack e automação de processos. Possuo habilidades práticas em Python, Vue.js, FastAPI e PostgreSQL, com foco na criação de soluções eficientes para análise de dados e desenvolvimento de aplicações web. Busco oportunidades para aplicar e expandir meus conhecimentos em um ambiente desafiador.",
+    "experienceTitle": "Experiência Profissional",
+    "experienceEntries": [
+      {
+        "role": "Desenvolvedor Full Stack & Automação",
+        "company": "Contágil Contabilidade",
+        "date": "Julho de 2024 – Julho de 2025",
+        "duties": [
+          "Desenvolvi e implementei automações com <strong>Python</strong> e <strong>Pandas</strong> para otimizar processos contábeis.",
+          "Criei scripts para análise e manipulação de <strong>Big Data</strong>, gerando relatórios e insights que apoiaram a tomada de decisão estratégica da equipe.",
+          "Fui responsável pelo ciclo de desenvolvimento e manutenção de aplicações web, utilizando <strong>Vue.js</strong>, <strong>Flask/FastAPI</strong>, <strong>Uvicorn</strong>, <strong>Systemd</strong>, <strong>UFW</strong>, etc.",
+          "Projetei, implementei e gerenciei bancos de dados <strong>PostgreSQL</strong>, <strong>MySQL</strong>.",
+          "Administrei servidores <strong>Linux Server</strong>, realizando configurações, monitoramento de performance."
+        ]
+      }
+    ],
+    "educationTitle": "Formação Acadêmica",
+    "educationEntries": [
+      {
+        "degree": "Bacharelado em Ciência da Computação",
+        "institution": "Universidade Federal de Campina Grande (UFCG)",
+        "period": "Fevereiro de 2024 – Previsão de Conclusão: Dezembro de 2028"
+      },
+      {
+        "degree": "Ensino Médio (Escola Pública)",
+        "institution": "E.E.E.F.M. Senador Argemiro de Figueiredo",
+        "period": "Conclusão: Dezembro de 2018"
+      }
+    ],
+    "projectsTitle": "Projetos",
+    "projectsEntries": [
+      {
+        "name": "gespec — Analisador de Especificações de Hardware",
+        "description": "Ferramenta de linha de comando (CLI) desenvolvida em <strong>Python</strong> para coletar e exibir informações detalhadas sobre os componentes de hardware do computador (CPU, GPU, RAM, Disco).",
+        "tech": "Python.",
+        "repo": "GitHub: icarosqz/gespec"
+      }
+    ],
+    "skillsTitle": "Habilidades Técnicas",
+    "skillsList": [
+      "<strong>Linguagens:</strong> Python, Java, SQL, JavaScript",
+      "<strong>Desenvolvimento Web:</strong><ul><li><strong>Back-End:</strong> FastAPI, Flask</li><li><strong>Front-End:</strong> Vue.js, HTML5, CSS3</li></ul>",
+      "<strong>Bancos de Dados:</strong> PostgreSQL",
+      "<strong>Análise de Dados:</strong> Pandas",
+      "<strong>Sistemas e Ferramentas:</strong> Linux, Git, Docker"
+    ],
+    "languagesTitle": "Idiomas",
+    "languagesList": [
+      "<strong>Português:</strong> Nativo",
+      "<strong>Inglês:</strong> Fluente (Nível B2)"
+    ]
+  },
+  "en": {
+    "pageTitle": "Resume - Ícaro Gabriel S. de Queiroz",
+    "name": "Ícaro Gabriel Saldanha de Queiroz",
+    "location": "Campina Grande, Paraíba, Brazil",
+    "photoUrls": {
+      "light": "img/profile-light.jpg",
+      "dark": "img/profile-dark.jpg"
+    },
+    "toggleTheme": "Theme Light/Dark",
+    "togglePhoto": "Show/Hide Photo",
+    "downloadPdf": "Download as PDF (at current page settings)",
+    "summaryTitle": "Summary",
+    "summaryContent": "Computer Science undergraduate at the Federal University of Campina Grande (UFCG) with professional experience in Full Stack development and process automation. Skilled in Python, Vue.js, FastAPI, and PostgreSQL, with a focus on creating efficient solutions for data analysis and web application development. Seeking challenging opportunities to apply and expand my skills.",
+    "experienceTitle": "Professional Experience",
+    "experienceEntries": [
+      {
+        "role": "Full Stack Developer & Automation",
+        "company": "Contágil Contabilidade",
+        "date": "July 2024 – July 2025",
+        "duties": [
+          "Developed and implemented automations with <strong>Python</strong> and <strong>Pandas</strong> to optimize accounting processes.",
+          "Created scripts for analyzing and manipulating <strong>Big Data</strong>, generating reports and insights that supported the team's strategic decision-making.",
+          "Managed the development and maintenance lifecycle of web applications, using <strong>Vue.js</strong>, <strong>Flask/FastAPI</strong>, <strong>Uvicorn</strong>, <strong>Systemd</strong>, <strong>UFW</strong>, etc.",
+          "Designed, implemented, and managed <strong>PostgreSQL</strong> and <strong>MySQL</strong> databases.",
+          "Administered <strong>Linux Servers</strong>, performing configurations and performance monitoring."
+        ]
+      }
+    ],
+    "educationTitle": "Education",
+    "educationEntries": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "Federal University of Campina Grande (UFCG)",
+        "period": "February 2024 – Expected Graduation: December 2028"
+      },
+      {
+        "degree": "High School Diploma",
+        "institution": "E.E.E.F.M. Senador Argemiro de Figueiredo",
+        "period": "Graduated: December 2018"
+      }
+    ],
+    "projectsTitle": "Projects",
+    "projectsEntries": [
+      {
+        "name": "gespec — Hardware Specification Analyzer",
+        "description": "Command-line interface (CLI) tool developed in <strong>Python</strong> to collect and display detailed information about computer hardware components (CPU, GPU, RAM, Disk).",
+        "tech": "Python.",
+        "repo": "GitHub: icarosqz/gespec"
+      }
+    ],
+    "skillsTitle": "Technical Skills",
+    "skillsList": [
+      "<strong>Languages:</strong> Python, Java, SQL, JavaScript",
+      "<strong>Web Development:</strong><ul><li><strong>Back-End:</strong> FastAPI, Flask</li><li><strong>Front-End:</strong> Vue.js, HTML5, CSS3</li></ul>",
+      "<strong>Databases:</strong> PostgreSQL",
+      "<strong>Data Analysis:</strong> Pandas",
+      "<strong>Systems & Tools:</strong> Linux, Git, Docker"
+    ],
+    "languagesTitle": "Languages",
+    "languagesList": [
+      "<strong>Portuguese:</strong> Native",
+      "<strong>English:</strong> Fluent (B2 Level)"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+:root {
+    --bg-color: #f0f2f5;
+    --container-bg: #ffffff;
+    --text-color: #333;
+    --text-color-light: #555;
+    --date-color: #666;
+    --heading-color: #34495e;
+    --strong-color: #2c3e50;
+    --primary-accent: #007bff;
+    --border-color: #e0e0e0;
+    --top-bar-bg: #e9ecef;
+    --top-bar-border: #ddd;
+    --top-bar-text: #333;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --container-bg: #2B2B2B;
+    --text-color: #e0e0e0;
+    --text-color-light: #aaa;
+    --date-color: #aaa;
+    --heading-color: #ffffff;
+    --strong-color: #8be9fd;
+    --primary-accent: #8be9fd;
+    --border-color: #333;
+    --top-bar-bg: #2B2B2B;
+    --top-bar-border: #333;
+    --top-bar-text: #e0e0e0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 850px;
+    margin: 20px auto;
+    background-color: var(--container-bg);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: background-color 0.3s ease;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--top-bar-bg);
+    border-bottom: 1px solid var(--top-bar-border);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.lang-links a, .lang-links span {
+    color: var(--top-bar-text);
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.lang-links a:hover {
+    color: var(--primary-accent);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.action-buttons button {
+    background-color: transparent;
+    border: 1px solid var(--primary-accent);
+    color: var(--primary-accent);
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background-color: var(--primary-accent);
+    color: var(--container-bg);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-photo {
+    display: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-photo.visible {
+    display: block;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: border-color 0.3s ease;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0 0 10px 0;
+    color: var(--strong-color);
+}
+
+.contact-info {
+    font-size: 1em;
+    color: var(--text-color-light);
+}
+
+.contact-info a {
+    color: var(--primary-accent);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--heading-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: var(--strong-color);
+    margin-bottom: 5px;
+}
+
+.job, .education-entry, .project {
+    margin-bottom: 25px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: var(--date-color);
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: var(--strong-color);
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .top-bar {
+        display: none !important;
+    }
+
+    .container {
+        margin: 0;
+        padding: 1cm;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
+    }
+
+    h2 {
+        margin-top: 0.8cm;
+        padding-bottom: 2mm;
+    }
+
+    .profile-photo img {
+        border: none;
+        box-shadow: none;
+    }
+    
+    .job, .education-entry, .project {
+        page-break-inside: avoid;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    footer {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9em;
+    color: var(--text-color-light);
+    }
+
+    footer a {
+        color: var(--primary-accent);
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    @media print {
+        footer {
+            display: none !important;
+        }
+    }
+}
